@@ -10,7 +10,7 @@ function setup() {
     createCanvas(400, 800);
     hilbert(width / 2, 0, 0, resolution, 0, arr);
     console.log(arr);
-    img = loadImage('./logo2.png');
+    img = loadImage('./logo.png');
 }
 
 function draw() {
